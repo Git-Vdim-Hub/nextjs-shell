@@ -2,7 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -11,8 +21,11 @@ yarn dev
 # or
 pnpm dev
 ```
+Since this framework is using Apollo/GraphQL, you will need to add a user in order to read the backend output. Open the graphQL server [http://localhost:3000/api/graphql](http://localhost:3000/api/graphql)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Follow apollo steps for a mutation and create a new user. You will need to add the user to the database manually.
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You should see Helloo !! as the very top, followed by an output of the user you created..
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
