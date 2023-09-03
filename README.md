@@ -1,8 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+Pre-reqs:
+-Make sure you have nodejs installed (Node)[https://nodejs.org/en]
+-Make sure you have MongoDB installed: (MongoDB)[https://coding-boot-camp.github.io/full-stack/mongodb/how-to-install-mongodb]
+-I recommend gitbash as well, but you can do without it. If interested, install (GitBash)[https://git-scm.com/downloads]
 
-First, install dependencies:
+
+
+Then, to run the app, first, install dependencies:
 
 ```bash
 npm install
@@ -23,7 +29,7 @@ pnpm dev
 ```
 Since this framework is using Apollo/GraphQL, you will need to add a user in order to read the backend output. Open the graphQL server [http://localhost:3000/api/graphql](http://localhost:3000/api/graphql)
 
-Follow apollo steps for a mutation and create a new user. You will need to add the user to the database manually.
+Follow apollo steps for a mutation and create a new user. You will need to add the user to the database manually.(GraphQL/Apollo How To)[https://coding-boot-camp.github.io/full-stack/apis/graphql-playground-guide]
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You should see Helloo !! as the very top, followed by an output of the user you created..
 
